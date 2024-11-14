@@ -1,0 +1,76 @@
+/* Container for the product list */
+.product-list {
+  padding: 20px;
+  max-width: 1200px; /* Adjust max-width for larger container */
+  margin: 50px auto; /* Center the container */
+  text-align: center;
+}
+
+/* Heading style */
+.product-list h2 {
+  font-size: 3rem; /* Increase font size for heading */
+  color: #00000054; /* Heading color */
+  margin-bottom: 20px; /* Space below heading */
+  font-weight: 900; /* Increase font weight to make text bolder */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for extra emphasis */
+}
+
+
+/* Unordered list style */
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items horizontally */
+}
+
+/* List item style */
+.product-list li {
+  margin: 20px; /* Increase margin for spacing */
+  max-width: 300px; /* Increase maximum width */
+}
+
+/* Product item style */
+.product-item {
+  text-align: center;
+  max-width: 30px; /* Ensure item is large */
+  margin: 20px; /* Increase margin for spacing */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Make image fill container */
+.product-item img {
+  width: 100%; /* Make the image fill the container */
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Product description */
+.product-item p {
+  padding: 15px; /* Increase padding */
+  font-size: 1.2rem; /* Increase font size */
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Hover effects */
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(220, 2, 2, 0.2);
+}
+
+.product-item img:hover {
+  transform: scale(5.05);
+}
+
+.product-item p:hover {
+  color: #007bff;
+}

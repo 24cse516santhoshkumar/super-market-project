@@ -1,0 +1,78 @@
+/* Container for the dashboard page */
+.dashboard-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 50px auto; /* Center the container with some margin from top */
+  font-family: Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center; /* Center-align text in the container */
+}
+
+/* Heading style */
+.dashboard-container h1 {
+  color: #fff; /* Text color */
+  margin: 0; /* Remove margin to align properly */
+  font-size: 4rem; /* Increased font size for emphasis */
+  font-weight: bold; /* Bold text */
+  background: linear-gradient(135deg, #000, #333); /* Black to dark gray gradient */
+  -webkit-background-clip: text; /* Clip the gradient to the text */
+  -webkit-text-fill-color: transparent; /* Make text color transparent to show gradient */
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); /* Adds shadow for better readability */
+  letter-spacing: 4px; /* Spacing between letters */
+  padding: 20px; /* Padding around text */
+  border-radius: 10px; /* Rounded corners for the h1 element */
+  display: inline-block; /* Ensure padding and border-radius apply correctly */
+  font-family: 'Frutiger', cursive; /* Custom font family */
+  position: relative; /* Enable relative positioning */
+}
+
+/* Subheading style */
+.dashboard-container h3 {
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 1.2rem; /* Slightly larger text */
+}
+
+/* Unordered list style */
+.dashboard-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List item style */
+.dashboard-container li {
+  margin: 10px 0;
+}
+
+/* Link style */
+.dashboard-container a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  transition: color 0.3s, transform 0.3s, background-color 0.3s; /* Add transition for color, transform, and background-color */
+  padding: 10px 20px; /* Add padding for better click area */
+  border-radius: 5px; /* Rounded corners for the background */
+  display: inline-block; /* Ensure padding and background are applied correctly */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+/* Link hover effect */
+.dashboard-container a:hover {
+  color: #000000; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly enlarge the link */
+  background-color: yellow; /* Change background color to yellow on hover */
+  text-decoration: underline; /* Optional: underline text on hover for additional effect */
+}
+
+/* Body styling */
+body {
+  background: url('/Users/santhoshkumar/Downloads/super market/app/src/components/pexels-cenali-2733918.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  color: #fff; /* Text color */
+  font-family: Arial, sans-serif; /* Font family */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}

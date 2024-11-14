@@ -1,0 +1,109 @@
+/* Container Styles */
+.login-container {
+    width: 320px; /* Slightly wider for better spacing */
+    margin: 100px auto;
+    padding: 25px; /* Increased padding for better visual spacing */
+    background: linear-gradient(135deg, #f7f7f7, #ffffff);
+    border-radius: 12px; /* Increased radius for smoother edges */
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow for a more modern look */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-10px); /* Subtle lift effect on hover */
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Heading Styles */
+.login-container h2 {
+    margin-bottom: 25px; /* Increased margin for better spacing */
+    color: #444; /* Slightly darker color for better readability */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    letter-spacing: 1.2px; /* Subtle spacing between letters */
+}
+
+/* Input Styles */
+.login-container input {
+    width: 100%;
+    padding: 12px; /* Increased padding for a more spacious feel */
+    margin: 12px 0;
+    border: 1px solid #ccc; /* Slightly darker border */
+    border-radius: 6px; /* Smoother edges */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Consistent typography */
+    font-size: 14px; /* Adjusted font size */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container input:focus {
+    border-color: #007bff; /* Border color change on focus */
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5); /* Subtle glow on focus */
+    outline: none;
+}
+
+/* Button Styles */
+.login-container button {
+    width: 100%;
+    padding: 12px; /* Increased padding for better feel */
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px; /* Slightly larger font for emphasis */
+    font-family: 'Roboto', sans-serif; /* Consistent typography */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+}
+
+.login-container button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed; /* Change cursor to indicate disabled state */
+}
+
+/* Error Message Styles */
+.error-message {
+    color: rgb(199, 0, 0);
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(255, 255, 0);
+    padding: 2px 4px;
+    width: 100%;
+    animation: running-text 10s linear infinite;
+    border-radius: 4px; /* Add border-radius for smooth edges */
+    box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.3); /* Add subtle shadow for emphasis */
+}
+
+/* Keyframes for Running Text */
+@keyframes running-text {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+/* login.css */
+
+/* Styling for the header */
+.header {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd; /* Bottom border */
+  }
+  
+  .header h1 {
+    margin: 0;
+    color:black;
+    font-style: bold;
+  }
+  
